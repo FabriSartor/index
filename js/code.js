@@ -6,7 +6,7 @@ function preguntarNombreYApellido() {
 function mayus(){
     var datospersonales=document.getElementById("Datos");
     datospersonales.innerHTML="DATOS PERSONALES";
-    datospersonales.style.backgroundColor="red";
+    datospersonales.style.backgroundColor="lightblue";
 }
 function minus(){
     var datospersonales=document.getElementById("gatos");
@@ -14,9 +14,25 @@ function minus(){
 }
 function colour1(){
     var oscuro=document.getElementById("oscuro");
-    oscuro.style.backgroundColor="grey";
+    oscuro.style.backgroundColor="black";
 }
 function colour2(){
     var oscuro=document.getElementById("oscuro");
     oscuro.style.backgroundColor="white";
+}
+function buttonblack(){
+    var button=document.getElementById("merca")
+    button.style.backgroundColor="black"
+}
+function buttonblack1(){
+    var boton=document.getElementById("merca1")
+    boton.style.backgroundColor="black"
+}
+function buttonblack2(){
+    var negro=document.getElementById("merca2")
+    negro.style.backgroundColor="black"
+}
+function buttonblack3(){
+    var negro=document.getElementById("merca3")
+    negro.style.backgroundColor="black"
 }

@@ -31,7 +31,7 @@ section {
     text-align: center;
 }
 #Educación {
-    background-image: url(../img/fondo\ verde\ claro.jpg);
+    background-color: lightblue;
     border-radius: 30px;
     padding: 3px 20px 3px;
     box-shadow: 3px 20px 4px;
@@ -39,7 +39,7 @@ section {
     margin: 25px;
 }
 #Datospersonales {
-    background-image: url(../img/fondo\ verde\ claro.jpg);
+    background-color: lightblue;
     border-radius: 30px;
     padding: 3px 20px 3px;
     box-shadow: 3px 20px 3px ;
@@ -49,17 +49,132 @@ section {
 #CURRICULUM {
     background-color: antiquewhite;
 }
-/*body {
-    background-image: url(../img/fondo\ verde\ claro.jpg);
-    box-shadow: 10px 4px 10px black;
+body {
+    background-color: white;
+    /* box-shadow: 10px 4px 10px black;
     padding: 3px 20px 3px;
     border-style: solid;
     background-repeat: no-repeat;
-    background-size: 1400px;
-}*/
+    background-size: 1400px; */
+}
 #Datospersonales h2 {
     background-color: lightblue;
 }
 #Educación h2 {
     background-color: lightblue;
 }
+button{
+    border-style: hidden;
+    background-color: lightcoral;
+    width: 20%;
+    border-radius: 30px;
+    padding: 3px 20px 3px;
+    border-style: solid;
+    margin: 25px;
+    
+    
+}
+/* strong{
+    color: white;
+} */
+
+ /* nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background: var(--main-red);
+    box-shadow: 0 2px 0 rgba(238, 12, 12, 0.4);
+    z-index: 10;
+    background-color: rgb(233, 118, 118);
+}
+
+.nav-list {
+    display: flex;
+    margin-right: 2rem;
+}
+@media (max-width: 28.75em) {
+    .nav {
+    justify-content: center;
+    }
+
+    .nav-list {
+    margin: 0 1rem;
+    }
+}
+
+.nav-list a {
+    display: block;
+    font-size: 2.2rem;
+    padding: 2rem;
+}
+
+.nav-list a:hover {
+    background: var(--main-blue);
+}
+
+
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+.welcome-section > p {
+    font-size: 3rem;
+    font-weight: 200;
+    font-style: italic;
+    color: var(--main-red);
+}
+
+
+.projects-section {
+    text-align: center;
+    padding: 10rem 2rem;
+    background: var(--main-blue);
+}
+
+.projects-section-header {
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid var(--main-white);
+}
+
+@media (max-width: 28.75em) {
+    .projects-section-header {
+    font-size: 4rem;
+    }
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+@media (max-width: 30.625em) {
+    .projects-section {
+    padding: 6rem 1rem;
+}
+.projects-grid {
+    grid-template-columns: 1fr;
+    }
+}
+
+.project {
+    background: var(--main-gray);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+} */ 
