@@ -9,8 +9,9 @@
 </head>
 <body>
     <h1>prueba de ingenieria</h1>
+    <h3 id="claro"></h3>
     <form action="../index.html" method="get">
-        <label for="txtemail">email(textbox)</label>
+        <label for="txtemail" onfocus="">email(textbox)</label>
         <input type="email" name="txtemail" id="txtemail" required>
         <br>
         <label for="txtPassword">contraseña(textbox)</label>
@@ -51,6 +52,15 @@
         <label for="radSexoindefinido"></label>
         <input type="radio" name="radSexo" id="radSexoindefinido" value="indefinido">indefinido
         <br>
+        <label for="file">documento</label>
+        <input type="file" name="file" id="file">
+        <br>
+        <label for="image">imagen</label>
+        <input type="image" name="imagen" id="imagen" src="../img/bebe.gif" width="100px">
+        <br>
+        <label for="index">introduzca una url</label>
+        <input type="url" name="index" id="index">
+        <br>
         <input type="submit" value="enviar">
         <br>
         <br>
@@ -60,4 +70,5 @@
     </div>
     </form>
 </body>
+<script src="../js/formulario.js"></script>
 </html>
