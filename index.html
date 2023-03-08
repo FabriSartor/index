@@ -4,39 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum</title>
+    <title>pagina web</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
+    <header>
+        <button class="abrir" id="abrir"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar" id="cerrar"><i class="bi bi-list"></i></button>
+            <ul class="listadenavegacion">
+                <li><a href="#">presentacion</a></li>
+                <li><a href="#">clase</a></li>
+                <li><a href="#">contacto</a></li>
+            </ul>
+        </nav>
+    </header>
     <div id="presentacion" class="partesDeLaPresentacion">  
         <H1>
             ¡Hola!, soy Fabrizio Sartor
         </H1>
         <h3>
             Estudiante de primer año de Técnico Superior en Desarrollo de Software
-        </h3>7
+        </h3>
+    </div>
+    <div id="trabajos" class="trabajos">
+        <h1>Trabajos en clase</h1>
+            <!-- <img src="../index/img/tablas.jpg" width="400px"> -->
+            <a href="../tablas/tablas.html">tablas</a><br>
+            <a href="paginas/formulario.html">pruebas de formulario de busqueda en google</a><br>
+            <a href="paginas/formularioscontroller.html">prueba de formularios html</a>
     </div>
     <div id="Curriculum" class="Curriculum">
-            <h1>
-                Datos personales
-            </h1>
-                <p>
-                    <li>Nombre: Fabrizio Sartor</li>
+        <h1>
+            Datos personales:
+        </h1>
+            <p>
+                <ul>
                     <li>Curso: 1ºaño</li>
                     <li>Carrera: Tecnico Superiror en Desarrollo de Software</li>
                     <li>Esc.Primaria: Esc. n°558 Mercedes Ramayon de Bruno </li>
                     <li>Esc.Secundaria: Esc. Normal Superior N°31 Republica de Mexico</li>
-                    <li>Terciario: Isp20
-                </p>
-    </div>
-    <div id="trabajosEnClase" class="trabajosEnClase">
-            <img src="../index/img/tablas.jpg" width="400px">
-            <a href="../tablas/tablas.html">tablas</a><br>
-            <a href="paginas/formulario.html">pruebas de formulario de busqueda en google</a><br>
-            <a href="paginas/formularioscontroller.html">prueba de formularios html</a>
-        <button onclick="colour1()">modo oscuro</button>
-        <button onclick="colour2()">modo claro</button>
-    </div>
+                    <li>Terciario: Isp20</li>
+                </ul>
+            </p>
+</div>
 </body>
 <script type="text/javascript" src="js/code.js"></script>
 </html>
