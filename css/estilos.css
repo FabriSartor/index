@@ -80,7 +80,39 @@ header{
 }
 
 
+
+/* transportes */
+
+
+@media (max-width: 30.625em) {
+    .presentacion {
+    padding: 6rem 1rem;
+}
+.presentacion {
+    grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 30.625em) {
+    .clases {
+    padding: 6rem 1rem;
+}
+.clases {
+    grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 30.625em) {
+    .contacto {
+    padding: 6rem 1rem;
+}
+.contacto {
+    grid-template-columns: 1fr;
+    }
+}
+
+
 /* aca arranca la presentacion */
+
+
 #presentacion {
     display: flex;
     flex-direction: column;
@@ -88,6 +120,7 @@ header{
     align-items: center;
     width: 100%;
     height: 100vh;
+    background-color: aliceblue;
 }
 #presentacion > h1 {
     font-size: 70px;
@@ -96,30 +129,37 @@ header{
     font-size: 40px;
     font-style: oblique;
 }
+
+
 /* trabajos en clase */
-.trabajos {
+
+
+.clases {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: aqua;
+    background-color: azure;
 }
-.trabajos > h1 {
+.clases > h1 {
+    padding: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 30px;
 }
+
+
     /* parte final */
-#Curriculum {
+
+    
+#contacto {
     width: 100%;
     height: 100vh;
     background-color: antiquewhite;
 }
-#Curriculum > h1 {
+#contacto > h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -128,17 +168,9 @@ header{
     padding-bottom: 200px;
     padding-top: 30px;
 }
-.Curriculum > ul {
+.contacto > ul {
     font-size: 30px;
     padding-left: 200px;
 }
 
-/* button{
-    border-style: hidden;
-    background-color: lightcoral;
-    width: 20%;
-    border-radius: 30px;
-    padding: 3px 20px 3px;
-    border-style: solid;
-    margin: 25px;
-} */
+
