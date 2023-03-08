@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pruebas de bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/pruebadebootstrap.css">
+</head>
+<body>
+        <nav class="navbar">
+            <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">fabrizio sartor</span>
+            </div>
+        </nav>
+        <nav class="navbar">
+            <div class="container-fluid">
+            <span>desarrollador de software</span>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-md navbar-light bg-lightblue">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">ingenieria</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    filas (rows)
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li itemid="alumno"><a class="dropdown-item" href="">mostrar fila uno</a></li>
+                    <li><a class="dropdown-item" href="#">mostrar fila dos</a></li>
+                    <li><a class="dropdown-item" href="#">mostrar fila tres</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled">enabled</a>
+                </li>
+                </ul>
+                <form action="https://www.google.com/search">
+                <input type="text" name="q" id="q" placeholder="search">
+                <input type="submit" value="search">
+                </form>
+            </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row" id="fila1">
+                <div class="col">
+                    <H3>columna 1</H3>
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/bebe.gif" class="card-img-top" alt="400px">
+                        <div class="card-body">
+                          <h5 class="card-title">bebe bailarin</h5>
+                          <p class="card-text">esta carta posee 10000 de daño de atque si aparece en la partida pierdes automaticamente</p>
+                          <a href="data:image/jpeg;base64,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" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <H3>columna 2</H3>
+                    <div class="card text-center">
+                        <div class="card-header">
+                          fabrizio sartor
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">egresado de la escuela normal superior numero 31</h5>
+                          <p class="card-text">estudiante de desarrolo de software</p>
+                          <a href="" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                        <div class="card-footer text-muted">
+                          2 days ago
+                        </div>
+                      </div>
+                </div>            
+            </div>
+            <div class="row" id="fila2">
+                <div class="col">
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="1000">
+                            <img src="img/bebe.gif" width="300px" >
+                          </div>
+                          <div class="carousel-item" data-bs-interval="1000">
+                            <img src="img/milei.jpg" width="300px" >
+                          </div>
+                          <div class="carousel-item" data-bs-interval="1000">
+                            <img src="img/peron.jpg" width="300px">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+            <div class="row" id="fila3">
+                <div class="col">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Accordion Item #1
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Accordion Item #2
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Accordion Item #3
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="row" id="fila4">
+                <div class="col">
+                    <div class="card">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+<script src="js/bootstrap.js"></script>
+<script src="js/pruebaboostrap.js"></script>
+</html>
