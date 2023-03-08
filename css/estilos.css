@@ -1,67 +1,47 @@
-img {
-    border: dotted 4px black;
-}
-h1 {
-    text-align: center;}
 p {
     text-decoration: underline;
 }
 ul {text-decoration: underline;
 }
-body {background-color:m white}
-h1,h2 {
-    border: double 12px black;
+body{
+    background-color: aliceblue;
 }
-h1 {
-    border-color: blue;
+#presentacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
 }
-p {
-    text-align: left;
+#presentacion > h1 {
+    font-size: 70px;
 }
-ul {
-    text-align: left;
+#presentacion > h3 {
+    font-size: 40px;
+    font-style: oblique;
 }
-a {
-    text-align: center;
-}
-strong {
-    text-align: left;
-}
-section {
-    text-align: center;
-}
-#Educación {
-    background-color: lightblue;
-    border-radius: 30px;
-    padding: 3px 20px 3px;
-    box-shadow: 3px 20px 4px;
-    border-style: solid;
-    margin: 25px;
-}
-#Datospersonales {
-    background-color: lightblue;
-    border-radius: 30px;
-    padding: 3px 20px 3px;
-    box-shadow: 3px 20px 3px ;
-    border-style: solid;
-    margin: 25px;
-}
-#CURRICULUM {
+#Curriculum {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
     background-color: antiquewhite;
 }
-body {
-    background-color: white;
-    /* box-shadow: 10px 4px 10px black;
-    padding: 3px 20px 3px;
-    border-style: solid;
-    background-repeat: no-repeat;
-    background-size: 1400px; */
+#Curriculum > h1 {
+    font-size: 40px;
 }
-#Datospersonales h2 {
-    background-color: lightblue;
+.Curriculum > li {
+    font-size: 30px;
 }
-#Educación h2 {
-    background-color: lightblue;
+.trabajosEnClase {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
 }
 button{
     border-style: hidden;
