@@ -146,14 +146,14 @@ header{
     background-color: azure;
 }
 #trabajosEnClase {
-    padding-top: 100px;
+    padding-top: 90px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 40px;
 }
-
+/* .clases */
 .clases >ul {
     list-style: none;
     display: flex;
