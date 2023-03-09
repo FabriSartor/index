@@ -146,7 +146,7 @@ header{
     background-color: azure;
 }
 #trabajosEnClase {
-    padding-top: 90px;
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
