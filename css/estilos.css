@@ -25,7 +25,7 @@ header{
     font-family: Arial;
     
 }
-.abrir {
+/* .abrir {
     display: none;
 }
 .cerrar {
@@ -82,7 +82,7 @@ header{
 
     }
 
-}
+} */
 
 
 
@@ -222,3 +222,4 @@ header{
 a {
     text-decoration: none;
 }
+
