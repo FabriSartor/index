@@ -1,3 +1,14 @@
 .navbar{
     background-color: lightblue;
 }
+
+.contenedor {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+.carousel-item{
+    height: 100%;
+    position: relative;
+}
