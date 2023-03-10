@@ -90,38 +90,6 @@ header{
 /* transportes */
 
 
-@media (max-width: 30.625em) {
-    .presentacion {
-    padding: 6rem 1rem;
-}
-.presentacion {
-    grid-template-columns: 1fr;
-    }
-}
-@media (max-width: 30.625em) {
-    .datospersonales {
-    padding: 6rem 1rem;
-}
-.datospersonales {
-    grid-template-columns: 1fr;
-    }
-}
-@media (max-width: 30.625em) {
-    .clases {
-    padding: 6rem 1rem;
-}
-.clases {
-    grid-template-columns: 1fr;
-    }
-}
-@media (max-width: 30.625em) {
-    .contacto {
-    padding: 6rem 1rem;
-}
-.contacto {
-    grid-template-columns: 1fr;
-    }
-}
 
 
 /* aca arranca la presentacion */
